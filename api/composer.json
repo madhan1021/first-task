@@ -1,0 +1,16 @@
+{
+  "name" : "s/json",
+  "description": "composer",
+  "require": {
+    "php" : "8.0.11"
+  },
+  "config": {
+    "classmap-authoritative": false,
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "task1\\":"src"
+    }
+  }
+}

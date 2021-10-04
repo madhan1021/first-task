@@ -1,0 +1,23 @@
+<h1>Work Order</h1>
+
+<div>
+  <input type="text" [(ngModel)]="contractor_name" placeholder="Enter the contractor_name" class="form-control">
+  <br>
+<!--  <span *ngIf="user && user.invalid">Field should not be empty and should be entered according to the rules</span>-->
+<!--  <span *ngIf="user && user.invalid">Field should not be empty and should be entered according to the rules</span>-->
+  <br>
+  <input type="tel" [(ngModel)]="workOrder_number" placeholder="Enter the workOrder_number" class="form-control">
+  <br>
+<!--  <span *ngIf="user && user.invalid">Field should not be empty and should be entered according to the rules</span>-->
+  <br>
+  <input type="date" [(ngModel)]="workOrder_date" placeholder="Enter the workOrder_date" class="form-control">
+  <br>
+<!--  <span *ngIf="user && user.invalid">Field should not be empty and should be entered according to the rules</span>-->
+  <br>
+  <input type="text" [(ngModel)]="workOrder_description" placeholder="Enter the workOrder_description" class="form-control">
+  <br>
+<!--  <span *ngIf="user && user.invalid">Field should not be empty and should be entered according to the rules</span>-->
+  <br>
+  <button class="btn btn-primary" type="submit" (click)="getData()">Submit</button>
+
+</div>
